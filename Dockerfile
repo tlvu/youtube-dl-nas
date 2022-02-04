@@ -22,7 +22,7 @@ RUN chmod +x /usr/bin/subber && \
      chmod +x /run.sh && \
      dos2unix /run.sh
 
-RUN pip install -U youtube-dl
+RUN pip install -U yt-dlp
 
 EXPOSE 8080
 
