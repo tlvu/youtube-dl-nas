@@ -1,5 +1,6 @@
-# youtube-dl-nas Server Dockerfile
+# yt-dlp-nas Server Dockerfile
 # https://github.com/hyeonsangjeon/youtube-dl-nas.git
+# https://github.com/Ogg-Vorbis/yt-dlp-nas.git
 
 FROM python:3-onbuild
 LABEL maintainer="wingnut0310 <wingnut0310@gmail.com>"

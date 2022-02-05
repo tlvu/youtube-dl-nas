@@ -4,7 +4,8 @@
 simple youtube download micro web queue server. 
 To prevent a queue attack when using NAS as a server, a making account was created when creating a docker container, and a new UI was added.
 This Queue server based on python3 and debian Linux.
-https://hub.docker.com/r/modenaf360/youtube-dl-nas/
+
+https://hub.docker.com/r/oggvorbis/yt-dlp-nas
 
 - web server : [`bottle`](https://github.com/bottlepy/bottle).
 - youtube-dl : [`youtube-dl`](https://github.com/rg3/youtube-dl).
@@ -30,6 +31,7 @@ https://hub.docker.com/r/modenaf360/youtube-dl-nas/
 - 2021.05.03 : [Patch] Fix random mkv or mp4 format when specifying resolution
 - 2021.12.09 : [Patch] Fix proxy setting bug
 - 2022.02.03 : [Fork/Patch] Switched to using yt-dlp
+- 2022.02.04 : [Patch] Switched youtube-dl scheduled update to yt-dlp
 #### You can check the status of download queue processing in real time using websocket from the message below the text box.
 ![screenshot](https://github.com/hyeonsangjeon/youtube-dl-nas/blob/master/pic/youtube-dl-server.png?raw=true)
 
